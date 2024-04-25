@@ -242,7 +242,7 @@
                 <div data-simplebar class="h-100">
 
                     <div class="navbar-brand-box">
-                        <a href="index.html" class="logo">
+                        <a href="index.php" class="logo">
                             <i class="mdi mdi-album"></i>
                             <span>
                                 Xeloro
@@ -257,38 +257,12 @@
                             <li class="menu-title">Menu</li>
 
                             <li>
-                                <a href="index.html" class="waves-effect"><i class="mdi mdi-home-analytics"></i><span
-                                        class="badge badge-pill badge-primary float-right">7</span><span>Dashboard</span></a>
+                                <a href="index.php" class="waves-effect"><i class="mdi mdi-home-analytics"></i><span>Dashboard</span></a>
                             </li>
 
                             <li>
-                                <a href="javascript: void(0);" class="has-arrow waves-effect"><i
+                                <a href="productos.php" class="waves-effect"><i
                                         class="mdi mdi-share-variant"></i><span>Productos</span></a>
-                                <ul class="sub-menu" aria-expanded="true">
-                                    <li><a href="javascript: void(0);">General</a></li>
-                                    <li><a href="javascript: void(0);" class="has-arrow">Tecnologia</a>
-                                        <ul class="sub-menu" aria-expanded="true">
-                                            <li><a href="javascript: void(0);">Laptop</a></li>
-                                            <li><a href="javascript: void(0);">PC</a></li>
-                                            <li><a href="javascript: void(0);">Monitor</a></li>
-                                            <li><a href="javascript: void(0);">Teles</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="javascript: void(0);" class="has-arrow">Ropas</a>
-                                        <ul class="sub-menu" aria-expanded="true">
-                                            <li><a href="javascript: void(0);">Hombre</a></li>
-                                            <li><a href="javascript: void(0);">Mujer</a></li>
-                                            <li><a href="javascript: void(0);">Niños</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="javascript: void(0);" class="has-arrow">Anime</a>
-                                        <ul class="sub-menu" aria-expanded="true">
-                                            <li><a href="javascript: void(0);">Figuras</a></li>
-                                            <li><a href="javascript: void(0);">Mangas</a></li>
-                                            <li><a href="javascript: void(0);">Novelas</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
                             </li>
 
                             <li>
@@ -298,25 +272,17 @@
 
                             <li>
                                 <a href="javascript: void(0);" class="waves-effect"><i
-                                        class="mdi mdi-table-merge-cells"></i><span
-                                        class="badge badge-pill badge-danger float-right">6</span><span>Ver Carrito</span></a>
+                                        class="mdi mdi-table-merge-cells"></i><span>Ver Carrito</span></a>
                             </li>
 
                             <li>
                                 <a href="javascript: void(0);" class="waves-effect"><i
-                                        class="mdi mdi-format-list-bulleted-type"></i><span
-                                        class="badge badge-pill badge-danger float-right">6</span><span>Pedidos en Curso</span></a>
+                                        class="mdi mdi-format-list-bulleted-type"></i><span>Pedidos en Curso</span></a>
                             </li>
 
                             <li>
-                                <a href="javascript: void(0);" class="has-arrow waves-effect"><i
+                                <a href="javascript: void(0);" class="waves-effect"><i
                                         class="mdi mdi-poll"></i><span>Ver Compras</span></a>
-                                <ul class="sub-menu" aria-expanded="false">
-                                    <li><a href="charts-morris.html">Hoy</a></li>
-                                    <li><a href="charts-google.html">Semana</a></li>
-                                    <li><a href="charts-chartjs.html">Mes</a></li>
-                                    <li><a href="charts-sparkline.html">Año</a></li>
-                                </ul>
                             </li>
 
                             <li><a href="calendar.html" class=" waves-effect"><i
