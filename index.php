@@ -261,7 +261,7 @@
                             </li>
 
                             <li>
-                                <a href="productos.php" class="waves-effect"><i
+                                <a href="#" class="waves-effect" onclick="cargar_contenido('contenido_principal','view/producto.php')"><i
                                         class="mdi mdi-share-variant"></i><span>Productos</span></a>
                             </li>
 
@@ -303,7 +303,7 @@
             <!-- ============================================================== -->
             <!-- Start right Content here -->
             <!-- ============================================================== -->
-            <div class="main-content">
+            <div class="main-content" id="contenido_principal">
 
                 <div class="page-content">
                     <div class="container-fluid">
@@ -364,6 +364,12 @@
 
         <!-- App js -->
         <script src="assets/js/theme.js"></script>
+
+        <script>
+            function cargar_contenido(id,vista){
+                $("#" + id).load(vista);
+            }
+        </script>
 
     </body>
 
