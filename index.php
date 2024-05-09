@@ -13,9 +13,9 @@
         <link rel="shortcut icon" href="assets/images/favicon.ico">
 
         <!-- App css -->
-        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
-        <link href="assets/css/theme.min.css" rel="stylesheet" type="text/css" />
+        <link href="include/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="include/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+        <link href="include/assets/css/theme.min.css" rel="stylesheet" type="text/css" />
 
     </head>
 
@@ -24,6 +24,7 @@
         <!-- Begin page -->
         <div id="layout-wrapper">
             <div class="header-border"></div>
+
             <header id="page-topbar">
                 <div class="navbar-header">
 
@@ -261,7 +262,7 @@
                             </li>
 
                             <li>
-                                <a href="#" class="waves-effect" onclick="cargar_contenido('contenido_principal','view/producto.php')"><i
+                                <a href="javascript: void(0);" class="waves-effect" onclick="cargar_contenido('contenido_principal','view/producto.php')"><i
                                         class="mdi mdi-share-variant"></i><span>Productos</span></a>
                             </li>
 
@@ -281,12 +282,12 @@
                             </li>
 
                             <li>
-                                <a href="javascript: void(0);" class="waves-effect"><i
-                                        class="mdi mdi-poll"></i><span>Ver Compras</span></a>
+                                <a href="javascript: void(0);" class="waves-effect" onclick="cargar_contenido('contenido_principal','view/preguntas.php')"><i
+                                        class="mdi mdi-poll"></i><span>Preguntas Frecuentes</span></a>
                             </li>
 
-                            <li><a href="calendar.html" class=" waves-effect"><i
-                                class="mdi mdi-calendar-range-outline"></i><span>Atencion al Cliente</span></a>
+                            <li><a href="javascript: void(0);" class=" waves-effect" onclick="cargar_contenido('contenido_principal','view/contacto.php')"><i
+                                class="mdi mdi-calendar-range-outline"></i><span>Contactenos</span></a>
                             </li>
 
                             <li><a href="calendar.html" class=" waves-effect"><i
@@ -356,14 +357,14 @@
 
 
         <!-- jQuery  -->
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/bootstrap.bundle.min.js"></script>
-        <script src="assets/js/metismenu.min.js"></script>
-        <script src="assets/js/waves.js"></script>
-        <script src="assets/js/simplebar.min.js"></script>
+        <script src="include/assets/js/jquery.min.js"></script>
+        <script src="include/assets/js/bootstrap.bundle.min.js"></script>
+        <script src="include/assets/js/metismenu.min.js"></script>
+        <script src="include/assets/js/waves.js"></script>
+        <script src="include/assets/js/simplebar.min.js"></script>
 
         <!-- App js -->
-        <script src="assets/js/theme.js"></script>
+        <script src="include/assets/js/theme.js"></script>
 
         <script>
             function cargar_contenido(id,vista){
