@@ -94,7 +94,7 @@
                         <div class="dropdown d-inline-block">
                             <button type="button" class="btn header-item waves-effect"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <img class="" src="assets/images/flags/us.jpg" alt="Header Language" height="16">
+                                <img class="" src="include/assets/images/flags/us.jpg" alt="Header Language" height="16">
                                 <span class="d-none d-sm-inline-block ml-1">English</span>
                                 <i class="mdi mdi-chevron-down d-none d-sm-inline-block"></i>
                             </button>
@@ -102,25 +102,25 @@
 
                                 <!-- item-->
                                 <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                    <img src="assets/images/flags/spain.jpg" alt="user-image" class="mr-1" height="12">
+                                    <img src="include/assets/images/flags/spain.jpg" alt="user-image" class="mr-1" height="12">
                                     <span class="align-middle">Spanish</span>
                                 </a>
 
                                 <!-- item-->
                                 <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                    <img src="assets/images/flags/germany.jpg" alt="user-image" class="mr-1" height="12">
+                                    <img src="include/assets/images/flags/germany.jpg" alt="user-image" class="mr-1" height="12">
                                     <span class="align-middle">German</span>
                                 </a>
 
                                 <!-- item-->
                                 <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                    <img src="assets/images/flags/italy.jpg" alt="user-image" class="mr-1" height="12">
+                                    <img src="include/assets/images/flags/italy.jpg" alt="user-image" class="mr-1" height="12">
                                     <span class="align-middle">Italian</span>
                                 </a>
 
                                 <!-- item-->
                                 <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                    <img src="assets/images/flags/russia.jpg" alt="user-image" class="mr-1" height="12">
+                                    <img src="include/assets/images/flags/russia.jpg" alt="user-image" class="mr-1" height="12">
                                     <span class="align-middle">Russian</span>
                                 </a>
                             </div>
@@ -148,7 +148,7 @@
                                 <div data-simplebar style="max-height: 230px;">
                                     <a href="" class="text-reset notification-item">
                                         <div class="media">
-                                            <img src="assets/images/users/avatar-2.jpg"
+                                            <img src="include/assets/images/users/avatar-2.jpg"
                                                 class="mr-3 rounded-circle avatar-xs" alt="user-pic">
                                             <div class="media-body">
                                                 <h6 class="mt-0 mb-1">Samuel Coverdale</h6>
@@ -176,7 +176,7 @@
                                     </a>
                                     <a href="" class="text-reset notification-item">
                                         <div class="media">
-                                            <img src="assets/images/users/avatar-3.jpg"
+                                            <img src="include/assets/images/users/avatar-3.jpg"
                                                 class="mr-3 rounded-circle avatar-xs" alt="user-pic">
                                             <div class="media-body">
                                                 <h6 class="mt-0 mb-1">Victoria Mendis</h6>
@@ -198,7 +198,7 @@
                         <div class="dropdown d-inline-block ml-2">
                             <button type="button" class="btn header-item waves-effect"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <img class="rounded-circle header-profile-user" src="assets/images/users/avatar-2.jpg"
+                                <img class="rounded-circle header-profile-user" src="include/assets/images/users/avatar-2.jpg"
                                     alt="Header Avatar">
                                 <span class="d-none d-sm-inline-block ml-1">Donald M.</span>
                                 <i class="mdi mdi-chevron-down d-none d-sm-inline-block"></i>
@@ -290,7 +290,7 @@
                                 class="mdi mdi-calendar-range-outline"></i><span>Contactenos</span></a>
                             </li>
 
-                            <li><a href="calendar.html" class=" waves-effect"><i
+                            <li><a href="javascript: void(0);" class=" waves-effect" onclick="cargar_contenido('contenido_principal','view/nosotros.php')"><i
                                         class="mdi mdi-calendar-range-outline"></i><span>Sobre Nosotros</span></a>
                             </li>
 
