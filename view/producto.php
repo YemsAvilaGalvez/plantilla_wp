@@ -2,7 +2,7 @@
     <div class="container-fluid">
 
         <div class="row">
-            <div class="col-12">
+            <div class="col-6">
                 <div class="card">
                     <div class="card-body">
 
@@ -47,7 +47,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6">
                     <!-- Simple card -->
                     <div class="card">
-                        <img class="card-img-top img-fluid" src="include/assets/images/product/laptop.jpg" alt="Card image cap">
+                        <img class="card-img-top img-fluid" src="<?php echo get_template_directory_uri(); ?>/include/assets/images/product/laptop.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Notebook Hp Amd Ryzen 3 7320, 8gb Ddr5 512ssd 15,6 Fhd W11 Color Plateado</h5>
                             <p class="card-text">S/. 1.899</p>
