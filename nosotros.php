@@ -1,3 +1,5 @@
+<?php get_header(); ?>
+
 <div class="page-content">
     <div class="container-fluid">
 
@@ -131,3 +133,5 @@
     </div> <!-- container-fluid -->
 </div>
 <!-- End Page-content -->
+
+<?php get_footer() ?>
