@@ -52,10 +52,12 @@
                     <div class="col-lg-2 col-md-3 col-sm-6">
                         <!-- Simple card -->
                         <div class="card">
-                            <img class="card-img-top img-fluid" src="<?php bloginfo('template_url'); ?>/include/assets/images/product/laptop.jpg" alt="Card image cap">
+                            <a href="<?php the_permalink(); ?>"><?php if (has_post_thumbnail()) {
+                                            the_post_thumbnail( 'thumbnail', array( 'class' => 'card-img-top img-fluid' ) );
+                                        } ?></a>
                             <div class="card-body">
-                                <h5 class="card-title">Notebook Hp Amd Ryzen 3 7320, 8gb Ddr5 512ssd 15,6 Fhd W11 Color Plateado</h5>
-                                <p class="card-text">S/. 1.899</p>
+                                <h5 class="card-title"><?php the_title(); ?></h5>
+                                <p class="card-text"><?php the_excerpt(); ?></p>
                                 <a href="#" class="btn btn-primary waves-effect waves-light">agregar a carrito</a>
                             </div>
                         </div>
@@ -63,7 +65,7 @@
             <?php
                 endwhile;
             else :
-                _e('Sorry, no posts matched your criteria.', 'textdomain');
+                _e('No Se Encontroraron Productos En La Categoria Selecionada', 'textdomain');
             endif;
             ?>
         </div>
