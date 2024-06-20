@@ -232,9 +232,9 @@
                     </a>
                 </div>
 
-                <!--- Sidemenu -->
+                <!--- Sidemenu
                 <div id="sidebar-menu">
-                    <!-- Left Menu Start -->
+                    
                     <ul class="metismenu list-unstyled" id="side-menu">
                         <li class="menu-title">Menu</li>
 
@@ -270,16 +270,17 @@
 
                     </ul>
                 </div>
-                <!-- Sidebar -->
-                <?php 
-                    wp_nav_menu(
-                        array(
+                 Sidebar -->
+                <?php
+                wp_nav_menu(
+                    array(
                         'theme_location' => 'menu_izquierdo',
                         'container' => 'div',
                         'container_id' => 'sidebar-menu',
-                        'items_warp' => ' <ul class="metismenu list-unstyled" id="side-menu">%3$s</ul>'
-                        )
-                    );
+                        'items_wrap' => '<ul class="metismenu list-unstyled" id="side-menu">%3$s</ul>',
+                        'link_before' => '<i class="mdi mdi-calendar-range-outline"></i> '
+                    )
+                );
                 ?>
 
             </div>
