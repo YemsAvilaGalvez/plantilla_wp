@@ -16,6 +16,14 @@
     <!-- App favicon 
         <link rel="shortcut icon" href="assets/images/favicon.ico"> -->
 
+    <!-- Plugins css -->
+    <link href="<?php echo bloginfo('template_url'); ?>/include/plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo bloginfo('template_url'); ?>/include/plugins/daterangepicker/daterangepicker.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo bloginfo('template_url'); ?>/include/plugins/select2/select2.min.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo bloginfo('template_url'); ?>/include/plugins/switchery/switchery.min.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo bloginfo('template_url'); ?>/include/plugins/bootstrap-colorpicker/bootstrap-colorpicker.min.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo bloginfo('template_url'); ?>/include/plugins/bootstrap-datepicker/bootstrap-datepicker.min.css" rel="stylesheet" type="text/css" />
+
     <!-- App css -->
     <link href="<?php echo bloginfo('template_url'); ?>/include/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="<?php echo bloginfo('template_url'); ?>/include/assets/css/icons.min.css" rel="stylesheet" type="text/css" />

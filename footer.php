@@ -29,6 +29,17 @@
 <script src="<?php echo bloginfo('template_url'); ?>/include/assets/js/waves.js"></script>
 <script src="<?php echo bloginfo('template_url'); ?>/include/assets/js/simplebar.min.js"></script>
 
+<!-- Plugins js -->
+<script src="<?php echo bloginfo('template_url'); ?>/include/plugins/autonumeric/autoNumeric-min.js"></script>
+<script src="<?php echo bloginfo('template_url'); ?>/include/plugins/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
+<script src="<?php echo bloginfo('template_url'); ?>/include/plugins/bootstrap-maxlength/bootstrap-maxlength.min.js"></script>
+<script src="<?php echo bloginfo('template_url'); ?>/include/plugins/moment/moment.js"></script>
+<script src="<?php echo bloginfo('template_url'); ?>/include/plugins/daterangepicker/daterangepicker.js"></script>
+<script src="<?php echo bloginfo('template_url'); ?>/include/plugins/select2/select2.min.js"></script>
+<script src="<?php echo bloginfo('template_url'); ?>/include/plugins/switchery/switchery.min.js"></script>
+<script src="<?php echo bloginfo('template_url'); ?>/include/plugins/bootstrap-colorpicker/bootstrap-colorpicker.min.js"></script>
+<script src="<?php echo bloginfo('template_url'); ?>/include/plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.min.js"></script>
+
 <!-- App js -->
 <script src="<?php echo bloginfo('template_url'); ?>/include/assets/js/theme.js"></script>
 
