@@ -31,7 +31,7 @@
 
                             </div>
                             <div class="card-footer">
-                                <p><?php the_author(); ?></p>
+                                <p><?php the_author(); ?>-<?php the_time(); ?></p> 
                             </div>
                         </div>
                     </div>
