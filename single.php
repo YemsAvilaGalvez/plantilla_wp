@@ -30,6 +30,9 @@
                                 </div>
 
                             </div>
+                            <div class="card-footer">
+                                <p><?php the_author(); ?></p>
+                            </div>
                         </div>
                     </div>
                 </div>
