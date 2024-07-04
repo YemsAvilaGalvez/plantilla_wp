@@ -13,8 +13,7 @@
     <meta content="MyraStudio" name="author" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <!-- App favicon 
-        <link rel="shortcut icon" href="assets/images/favicon.ico"> -->
+
 
     <!-- Plugins css -->
     <link href="<?php echo bloginfo('template_url'); ?>/include/plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.css" rel="stylesheet" type="text/css" />
@@ -233,10 +232,9 @@
 
                 <div class="navbar-brand-box">
                     <a href="index.php" class="logo">
-                        <i class="mdi mdi-album"></i>
-                        <span>
-                            Xeloro
-                        </span>
+                        <?php if (function_exists('the_custom_logo')) {
+                            the_custom_logo();
+                        } ?>
                     </a>
                 </div>
 

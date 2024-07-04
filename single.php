@@ -18,8 +18,10 @@
                     <div class="col-6 row">
                         <div class="card col-12">
                             <div class="card-body">
+                            
                                 <h5 class="card-title"><?php the_title(); ?></h5>
                                 <p class="card-text"><?php the_content(); ?></p>
+                                <p class="card-text"><?php the_category(); ?></p>
 
                                 <div class="row mb-3">
                                     <button class="btn btn-danger mr-2" onclick="desminuir_cantidad();">-</button>
@@ -31,7 +33,7 @@
 
                             </div>
                             <div class="card-footer">
-                                <p><?php the_author(); ?>-<?php the_time(); ?></p> 
+                                <p><?php the_author(); ?> | <?php the_date(); ?>-<?php the_time(); ?></p> 
                             </div>
                         </div>
                     </div>
